@@ -1,0 +1,93 @@
+.flexsearch{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .flexsearch> div{
+    background-color:rgb(243, 228, 228);
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border-width: 5px;
+    }
+
+    .flexfilter{
+    display: flex;
+    background-color: white;
+
+    }
+    
+    .flexfilter > div {
+    background-color:lightsalmon;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    }
+
+    
+
+    .flexrow1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 101, 228);
+    width: 450px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flexrow1 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-radius: 25px;
+    }
+
+    .flexrow2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 111, 227);
+    width: 450px;
+    
+    }
+
+    .flexrow2 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-radius: 25px;
+    }
+    .flexrow3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 223, 41);
+    width: 450px;
+    }
+
+    .flexrow3 > div {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-radius: 25px;
+    }
+
+    .button{
+        border-radius: 25px;
+    }
+  
+
+   
